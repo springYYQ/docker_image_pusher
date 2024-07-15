@@ -1,4 +1,6 @@
+redis:6.2.14
+mysql:8.0.37
 #支持私库
-opengrok/docker
+#opengrok/docker
 #支持指定架构
---platform=linux/arm64 xiaoyaliu/alist
+--platform=linux/amd64 linux/arm64
