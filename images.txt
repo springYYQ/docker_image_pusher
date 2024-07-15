@@ -1,8 +1,6 @@
-redis:6.2.14
-# 指定arm/v5内核版本
+--platform=linux/amd64 redis:6.2.14
 --platform=linux/arm/v5 redis:6.2.14
-mysql:8.0.38
-#指定arm64内核版本
+--platform=linux/amd64 mysql:8.0.38
 --platform=linux/arm64 mysql:8.0.38
 #支持私库
 #opengrok/docker
