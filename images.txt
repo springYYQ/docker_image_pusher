@@ -1,5 +1,7 @@
-redis:6.2.14 --platform=linux/amd64 linux/arm64
-mysql:8.0.37 --platform=linux/amd64 linux/arm64
+redis:6.2.14 --platform=linux/amd64
+redis:6.2.14 --platform=linux/arm/v5
+mysql:8.0.37 --platform=linux/amd64
+mysql:8.0.37 --platform=linux/arm64
 #支持私库
 #opengrok/docker
 #支持指定架构
