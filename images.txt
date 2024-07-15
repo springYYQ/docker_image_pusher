@@ -1,5 +1,9 @@
 redis:6.2.14
-mysql:8.0.37
+# 指定arm/v5内核版本
+redis:6.2.14@sha256:cd07ba731cb786a976ab478906c330033cac6c7fc5f77310f65884c352e6f6f5
+mysql:8.0.38
+#指定arm64内核版本
+mysql:8.0.38@sha256:5c78edf3b6f4ac8aa30df543bba8a4db2ac009f91271b207d4cbeed98b9d9984
 #支持私库
 #opengrok/docker
 #支持指定架构
