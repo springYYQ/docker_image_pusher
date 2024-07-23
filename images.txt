@@ -1,7 +1,40 @@
---platform=linux/amd64 redis:6.2.14
---platform=linux/arm/v5 redis:6.2.14
+#
+#--platform=linux/amd64 redis:6.2.14
+#--platform=linux/arm/v5 redis:6.2.14
+#
+--platform=linux/amd64 redis:7.2.5
+--platform=linux/arm/v5 redis:7.2.5
+#
 --platform=linux/amd64 mysql:8.0.38
 --platform=linux/arm64 mysql:8.0.38
+#
+--platform=linux/amd64 postgis/postgis:16-3.4
+#
+--platform=linux/amd64 kartoza/postgis:16-3.4
+--platform=linux/arm64 kartoza/postgis:16-3.4
+
+# 书写时最新版本3.15.0
+--platform=linux/amd64 rabbitmq:latest
+--platform=linux/arm64 rabbitmq:latest
+#
+--platform=linux/amd64 kartoza/geoserver:2.25.2
+--platform=linux/arm64 kartoza/geoserver:2.25.2
+#
+--platform=linux/amd64 nginx:1.27.0
+--platform=linux/arm/v5 nginx:1.27.0
+#
+--platform=linux/amd64 nacos/nacos-server:v2.4.0.1
+--platform=linux/arm64 nacos/nacos-server:v2.4.0.1
+#
+--platform=linux/amd64 bitnami/minio:2024.7.16
+--platform=linux/arm64 bitnami/minio:2024.7.16
+#
+--platform=linux/amd64 minio/minio:latest
+--platform=linux/arm64 minio/minio:latest
+# docker管理界面
+--platform=linux/amd64 portainer/portainer-ce:2.20.3
+--platform=linux/arm64 portainer/portainer-ce:2.20.3
+
 #支持私库
 #opengrok/docker
 #支持指定架构
