@@ -2,6 +2,9 @@
 #--platform=linux/amd64 redis:6.2.14
 #--platform=linux/arm/v5 redis:6.2.14
 #
+--platform=linux/amd64 eclipse-temurin:17.0.12_7-jdk-jammy
+--platform=linux/arm64/v8 eclipse-temurin:17.0.12_7-jdk-jammy
+#
 --platform=linux/amd64 redis:7.2.5
 --platform=linux/arm/v5 redis:7.2.5
 #
@@ -27,7 +30,6 @@
 --platform=linux/arm64 nacos/nacos-server:v2.4.1
 #
 --platform=linux/amd64 nacos/nacos-server:v2.3.2
---platform=linux/arm64 nacos/nacos-server:v2.3.2
 #
 --platform=linux/amd64 bitnami/minio:2024.7.16
 --platform=linux/arm64 bitnami/minio:2024.7.16
