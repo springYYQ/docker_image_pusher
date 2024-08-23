@@ -23,8 +23,11 @@
 --platform=linux/amd64 nginx:1.27.0
 --platform=linux/arm/v5 nginx:1.27.0
 #
---platform=linux/amd64 nacos/nacos-server:v2.4.0.1
---platform=linux/arm64 nacos/nacos-server:v2.4.0.1
+--platform=linux/amd64 nacos/nacos-server:v2.4.1
+--platform=linux/arm64 nacos/nacos-server:v2.4.1
+#
+--platform=linux/amd64 nacos/nacos-server:v2.3.2
+--platform=linux/arm64 nacos/nacos-server:v2.3.2
 #
 --platform=linux/amd64 bitnami/minio:2024.7.16
 --platform=linux/arm64 bitnami/minio:2024.7.16
