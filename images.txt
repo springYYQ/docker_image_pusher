@@ -22,23 +22,31 @@
 #
 --platform=linux/amd64 kartoza/geoserver:2.25.2
 --platform=linux/arm64 kartoza/geoserver:2.25.2
-#
+
+# 
 --platform=linux/amd64 nginx:1.27.0
 --platform=linux/arm/v5 nginx:1.27.0
-#
+
+# nacos
 --platform=linux/amd64 nacos/nacos-server:v2.4.1
 --platform=linux/arm64 nacos/nacos-server:v2.4.1
 #
 --platform=linux/amd64 nacos/nacos-server:v2.3.2
-#
+
+# minio
 --platform=linux/amd64 bitnami/minio:2024.7.16
 --platform=linux/arm64 bitnami/minio:2024.7.16
-#
+# 
 --platform=linux/amd64 minio/minio:latest
 --platform=linux/arm64 minio/minio:latest
+
 # docker管理界面
 --platform=linux/amd64 portainer/portainer-ce:2.20.3
 --platform=linux/arm64 portainer/portainer-ce:2.20.3
+
+# gdal 库镜像
+--platform=linux/amd64 osgeo/gdal:ubuntu-small-3.6.3
+--platform=linux/arm64 osgeo/gdal:ubuntu-small-3.6.3
 
 #支持私库
 #opengrok/docker
