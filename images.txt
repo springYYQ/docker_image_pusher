@@ -17,8 +17,8 @@
 --platform=linux/arm64 kartoza/postgis:16-3.4
 
 # 书写时最新版本3.15.0
---platform=linux/amd64 rabbitmq:latest
---platform=linux/arm64 rabbitmq:latest
+--platform=linux/amd64 rabbitmq:4.0.3-management
+--platform=linux/arm64 rabbitmq:4.0.3-management
 #
 --platform=linux/amd64 kartoza/geoserver:2.25.2
 --platform=linux/arm64 kartoza/geoserver:2.25.2
