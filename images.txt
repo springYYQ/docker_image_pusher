@@ -8,8 +8,8 @@
 --platform=linux/amd64 redis:7.2.5
 --platform=linux/arm/v5 redis:7.2.5
 #
---platform=linux/amd64 mysql:8.0.38
---platform=linux/arm64 mysql:8.0.38
+--platform=linux/amd64 mysql:8.0.41
+--platform=	linux/arm64/v8 mysql:8.0.41
 #
 --platform=linux/amd64 postgis/postgis:16-3.4
 #
